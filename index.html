@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Home-Page</title>
+</head>
+
+<body>
+    <!--===================================== NAVBAR =====================================-->
+    <nav class="navbar navbar-expand-lg navbar-light  py-4 mt-1">
+        <div class="container">
+            <a class="navbar-brand  fw-bold" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#"><svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
+                                    fill="#025066" />
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--================================== HERO-SECTION ==================================-->
+    <section class="bg-img position-relative">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-lg-6 col-12 order-2 order-lg-1 mt-14">
+                    <h1 class="hero-heading ">
+                        Morbi facilisis nulla purus, ac
+                    </h1>
+                    <p class="hero-para my-lg-5 my-3 py-3 py-lg-0 mx-auto mx-lg-0">
+                        Mauris viverra justo et dictum mattis. Donec massa felis, tempus nec erat id, fermentum rhoncus
+                        justo. Donec viverra quam nulla, id faucibus metus ullamcorp
+                    </p>
+                    <div>
+                        <button class="contact-btn">
+                            CONTACT NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 order-1 order-lg-2 mt-4 mt-lg-0">
+                    <img class="w-100 hero-img" src="./assets/img/hero.png" alt="">
+                </div>
+            </div>
+            <div class="mt-11 text-lg-start text-center">
+                <svg class="me-3" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0 18.6349C0 27.8481 6.69139 35.5093 15.4429 37.0629V23.6785H10.81V18.5314H15.4429V14.4128C15.4429 9.77996 18.428 7.20718 22.65 7.20718C23.9874 7.20718 25.4298 7.41257 26.7671 7.61796V12.3543H24.3997C22.1342 12.3543 21.62 13.4862 21.62 14.9286V18.5314H26.5617L25.7386 23.6785H21.62V37.0629C30.3715 35.5093 37.0629 27.8496 37.0629 18.6349C37.0629 8.38547 28.7237 0 18.5314 0C8.33914 0 0 8.38547 0 18.6349Z"
+                        fill="white" />
+                </svg>
+                <svg class="me-3" width="37" height="37" viewBox="0 0 37 37" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.5 0C8.28371 0 0 8.28371 0 18.5C0 28.7163 8.28371 37 18.5 37C28.7163 37 37 28.7163 37 18.5C37 8.28371 28.7163 0 18.5 0ZM27.3907 13.9452C27.4031 14.1393 27.4031 14.3416 27.4031 14.5398C27.4031 20.6019 22.7864 27.5848 14.3499 27.5848C11.7483 27.5848 9.33672 26.8291 7.30502 25.5283C7.67667 25.5696 8.03181 25.5862 8.41172 25.5862C10.559 25.5862 12.5329 24.8594 14.1062 23.6288C12.0911 23.5875 10.398 22.2661 9.81987 20.4491C10.526 20.5523 11.1619 20.5523 11.8887 20.3665C10.8511 20.1557 9.91846 19.5922 9.24924 18.7716C8.58003 17.9511 8.21551 16.9242 8.21763 15.8654V15.8076C8.82467 16.1503 9.53906 16.3609 10.2865 16.3898C9.65817 15.9711 9.14287 15.4038 8.78631 14.7382C8.42974 14.0726 8.24292 13.3293 8.24241 12.5742C8.24241 11.7194 8.4654 10.939 8.86596 10.2617C10.0177 11.6795 11.4548 12.8391 13.0841 13.6651C14.7133 14.4911 16.4981 14.965 18.3224 15.056C17.6741 11.9383 20.0031 9.41518 22.8029 9.41518C24.1243 9.41518 25.3136 9.96853 26.1519 10.8605C27.1884 10.6664 28.1795 10.2782 29.0632 9.75792C28.7204 10.8192 28.0019 11.7153 27.048 12.281C27.973 12.1819 28.865 11.9259 29.6908 11.5666C29.0673 12.4834 28.2868 13.2969 27.3907 13.9452Z"
+                        fill="white" />
+                </svg>
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.4953 11.6642C14.2819 11.6642 11.6596 14.2866 11.6596 17.5C11.6596 20.7134 14.2819 23.3358 17.4953 23.3358C20.7087 23.3358 23.331 20.7134 23.331 17.5C23.331 14.2866 20.7087 11.6642 17.4953 11.6642ZM34.998 17.5C34.998 15.0834 35.0199 12.6886 34.8842 10.2764C34.7485 7.47448 34.1093 4.9878 32.0605 2.93891C30.0073 0.885649 27.525 0.250846 24.7232 0.115129C22.3066 -0.0205877 19.9119 0.0013022 17.4997 0.0013022C15.0831 0.0013022 12.6884 -0.0205877 10.2762 0.115129C7.47434 0.250846 4.9877 0.890027 2.93886 2.93891C0.885633 4.99217 0.250841 7.47448 0.115127 10.2764C-0.0205873 12.693 0.00130217 15.0877 0.00130217 17.5C0.00130217 19.9123 -0.0205873 22.3114 0.115127 24.7236C0.250841 27.5255 0.890011 30.0122 2.93886 32.0611C4.99208 34.1143 7.47434 34.7492 10.2762 34.8849C12.6928 35.0206 15.0875 34.9987 17.4997 34.9987C19.9163 34.9987 22.311 35.0206 24.7232 34.8849C27.525 34.7492 30.0116 34.11 32.0605 32.0611C34.1137 30.0078 34.7485 27.5255 34.8842 24.7236C35.0243 22.3114 34.998 19.9166 34.998 17.5ZM17.4953 26.4792C12.5264 26.4792 8.51627 22.469 8.51627 17.5C8.51627 12.531 12.5264 8.52081 17.4953 8.52081C22.4642 8.52081 26.4743 12.531 26.4743 17.5C26.4743 22.469 22.4642 26.4792 17.4953 26.4792ZM26.8421 10.2501C25.6819 10.2501 24.7451 9.31322 24.7451 8.15306C24.7451 6.9929 25.6819 6.05602 26.8421 6.05602C28.0022 6.05602 28.9391 6.9929 28.9391 8.15306C28.9394 8.42854 28.8854 8.70139 28.7801 8.95597C28.6749 9.21055 28.5204 9.44187 28.3256 9.63666C28.1308 9.83146 27.8995 9.98592 27.645 10.0912C27.3904 10.1964 27.1175 10.2504 26.8421 10.2501Z"
+                        fill="white" />
+                </svg>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!--================================= SECOND-SECTION =================================-->
+    <div class="container mt-5">
+        <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+            <div class="col-lg-2 col-6 py-5 ">
+                <div class="vertical-text text-center mx-auto mx-sm-0">
+                    <p class="small-heading-2 mb-0 mt-4">
+                        H
+                    </p>
+                    <P class="small-heading-2 mb-0">
+                        E
+                    </P>
+                    <P class="small-heading-2 mb-0">
+                        R
+                    </P>
+                    <P class="small-heading-2 mb-0">
+                        E
+                    </P>
+                    <P class="small-heading-2 mb-0 mt-3">
+                        W
+                    </P>
+                    <P class="small-heading-2 mb-0">
+                        E
+                    </P>
+                    <P class="small-heading-2 mb-0 mt-3">
+                        D
+                    </P>
+                    <P class="small-heading-2 mb-4">
+                        O
+                    </P>
+                    <div>
+                        <svg width="1" height="168" viewBox="0 0 1 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="2.18557e-08" x2="0.499993" y2="168" stroke="#025066" />
+                        </svg>
+
+                    </div>
+                    <h3 class="number mt-3">
+                        01
+                    </h3>
+
+                </div>
+            </div>
+            <div class="col-lg-4   col-12 py-5 ps-lg-5 pe-4 order-3 order-lg-2">
+                <p class="small-heading text-dark">
+
+                    OUR SERVICES
+                </p>
+                <h1 class="heading">
+                    Construction building.
+                </h1>
+                <p class="normal-para my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                    Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. Vivamus
+                    eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu interdum posuere,
+                    justo neque dictum sapien, eu luctus neque nulla non ante. Quisque pharetra facilisis mauris a
+                    hendrerit. Donec rutrum maximus turpis id luctus. In gravida pulvinar elit, a auctor mauris scele
+                    risque ac. Aliquam facilisis tortor elit, auctor semper est ve stibulum ut. Nam sit amet libero
+                    vulputate, faucibus purus et, vestibulum sem. Nunc ac nulla erat. Nulla facilis
+                </p>
+                <p class="mb-0 small-heading-2">
+                    VIEW PROJECTS <span>
+                        <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                fill="#025066" />
+                        </svg>
+
+                    </span>
+                </p>
+            </div>
+            <div
+                class="col-lg-5 col-sm-6 col-12 py-5 order-2 order-lg-3 d-flex align-items-center  justify-content-center">
+                <img class="w-100 mw-500" src="./assets/img/second-section.png" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+            <div class="col-lg-7 col-sm-6 col-12 pt-5 mt-lg-5  d-flex align-items-center  justify-content-center">
+                <a href="https://www.youtube.com/watch?v=3rF0aIefvEk&list=RD3rF0aIefvEk&start_radio=1">
+                    <img class="w-100" src="./assets/img/house-video.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4  col-12 pt-5 mt-lg-5 ps-lg-5 text-lg-end">
+                <p class="small-heading text-dark">
+
+                    MAKE UNIQUE
+                </p>
+                <h1 class="heading">
+                    Solutions interior design
+                </h1>
+                <p class="normal-para my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                    Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. Vivamus
+                    eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu interdum posuere,
+                    justo neque dictum sapien, eu luctus neque nulla non ante. Quisque pharetra facilisis mauris a
+                    hendrerit. Donec rutrum maximus turpis id luctus. In gravida pulvinar elit, a auctor mauris scele
+                    risque ac. Aliquam facilisis tortor elit, auctor semper est ve stibulum ut. Nam sit amet libero
+                    vulputate, faucibus purus et, vestibulum sem. Nunc ac nulla erat. Nulla facilis
+                </p>
+                <p class="mb-0 small-heading-2">
+                    VIEW PROJECTS <span>
+                        <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                fill="#025066" />
+                        </svg>
+
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+
+            <div class="col-lg-5  col-12 pt-5 mt-lg-5 pe-lg-5 order-2 order-lg-1">
+                <p class="small-heading text-dark">
+
+                    MAKE UNIQUE
+                </p>
+                <h1 class="heading me-lg-5">
+                    Construction building.
+                </h1>
+                <p class="normal-para my-lg-5 my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                    Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. Vivamus
+                    eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu interdum posuere,
+                    justo neque dictum sapien, eu luctus neque nulla non ante. Quisque pharetra facilisis mauris a
+                    hendrerit. Donec rutrum maximus turpis id luctus. In gravida pulvinar elit, a auctor mauris scele
+                    risque ac. Aliquam facilisis tortor elit, auctor semper est ve stibulum ut. Nam sit amet libero
+                    vulputate, faucibus purus et, vestibulum sem. Nunc ac nulla erat. Nulla facilis
+                </p>
+                <p class="mb-0 small-heading-2">
+                    VIEW PROJECTS <span>
+                        <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                fill="#025066" />
+                        </svg>
+
+                    </span>
+                </p>
+            </div>
+            <div
+                class="col-lg-7 col-sm-6 col-12 pt-5 mt-lg-5  d-flex align-items-center order-1 order-lg-2  justify-content-center justify-content-lg-end">
+                <img class="w-100 mw-688" src="./assets/img/fourth-section.png" alt="">
+            </div>
+        </div>
+        <div class="mt-5 pt-lg-5">
+            <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+                <div class="col-lg-2 col-6 pt-lg-5 pt-4 ">
+                    <div class="vertical-text text-center mx-auto mx-lg-0">
+                        <p class="small-heading-2 mb-0 mt-3">
+                            O
+                        </p>
+                        <P class="small-heading-2 mb-0">
+                            U
+                        </P>
+                        <P class="small-heading-2 mb-0">
+                            R
+                        </P>
+
+                        <P class="small-heading-2 mb-0 mt-3">
+                            W
+                        </P>
+                        <P class="small-heading-2 mb-0">
+                            O
+                        </P>
+                        <P class="small-heading-2 mb-0 ">
+                            R
+                        </P>
+                        <P class="small-heading-2 mb-0 ">
+                            D
+                        </P>
+                        <P class="small-heading-2 mb-4">
+                            S
+                        </P>
+                        <div>
+                            <svg width="2" height="100" viewBox="0 0 1 168" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" y1="2.18557e-08" x2="0.499993" y2="168" stroke="#025066" />
+                            </svg>
+
+                        </div>
+                        <h3 class="number mt-3">
+                            02
+                        </h3>
+
+                    </div>
+                </div>
+                <div
+                    class="col-lg-7 d-flex flex-column justify-content-center  col-12 pt-lg-5 py-4 ps-lg-5 pe-4 order-3 order-lg-2 text-lg-end">
+
+                    <h1 class="heading">
+                        Mauris viverra justo et dictum mattis.
+                    </h1>
+                    <p class="normal-para my-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet.
+                        Vivamus eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu
+                        interdum
+                        posuere, justo neque vulputate, faucibus purus et, vestibulum sem. Nunc ac nulla erat. Nulla
+                        facilis
+                    </p>
+                    <p class="mb-0 small-heading-2">
+                        VIEW PROJECTS <span>
+                            <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                    fill="#025066" />
+                            </svg>
+
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--=========================== SECTION-IMAGE-GROUP ===========================-->
+    <section class="bg-sea-green py-5">
+        <div class="container mb-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6 col-12 mt-4">
+                    <div class="card-1">
+                        <img class="w-100" src="./assets/img/card-1.png" alt="">
+                        <div>
+                            <p class="sub-heading mt-3 py-2 mb-2">
+                                Lorem ipsum dolo
+                            </p>
+                            <p class="normal-para">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis
+                                finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper
+                            </p>
+                            <p class="mb-2 small-heading-2 mt-4">
+                                VIEW PROJECTS <span>
+                                    <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                            fill="#025066" />
+                                    </svg>
+
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mt-4">
+                    <div class="card-1">
+                        <img class="w-100" src="./assets/img/card-2.png" alt="">
+                        <div>
+                            <p class="sub-heading mt-3 py-2 mb-2">
+                                Lorem ipsum dolo
+                            </p>
+                            <p class="normal-para">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis
+                                finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper
+                            </p>
+                            <p class="mb-2 small-heading-2 mt-4">
+                                VIEW PROJECTS <span>
+                                    <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                            fill="#025066" />
+                                    </svg>
+
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mt-4">
+                    <div class="card-1">
+                        <img class="w-100" src="./assets/img/card-3.png" alt="">
+                        <div>
+                            <p class="sub-heading mt-3 py-2 mb-2">
+                                Lorem ipsum dolo
+                            </p>
+                            <p class="normal-para">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis
+                                finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper
+                            </p>
+                            <p class="mb-2 small-heading-2 mt-4">
+                                VIEW PROJECTS <span>
+                                    <svg class="ms-3" width="15" height="20" viewBox="0 0 15 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.536 19.886C0.697765 19.9702 0.879391 20.0087 1.06138 19.9974C1.24337 19.9861 1.41886 19.9255 1.569 19.822L14.569 10.822C14.7018 10.73 14.8104 10.6071 14.8854 10.464C14.9603 10.3208 14.9995 10.1616 14.9995 10C14.9995 9.83843 14.9603 9.67923 14.8854 9.53607C14.8104 9.39291 14.7018 9.27006 14.569 9.17803L1.569 0.178029C1.41897 0.0742216 1.24341 0.013434 1.06131 0.00224798C0.879219 -0.00893801 0.697533 0.029904 0.53593 0.114568C0.374326 0.199232 0.238963 0.326492 0.144497 0.482569C0.0500308 0.638645 6.15833e-05 0.817591 1.35831e-08 1.00003V19C-3.00674e-05 19.1826 0.0499031 19.3616 0.144387 19.5178C0.238871 19.674 0.374302 19.8013 0.536 19.886Z"
+                                            fill="#025066" />
+                                    </svg>
+
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--========================= SECTION-FOURTH =========================-->
+    <div class="container">
+        <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+
+            <div
+                class="col-xxl-5 col-lg-6 d-flex flex-column justify-content-center col-12 pt-5 mt-lg-5 pe-lg-5 order-2 order-lg-1">
+                <p class="small-heading text-dark mb-4">
+                    OTHER SERVICES
+                </p>
+                <h1 class="heading me-lg-5">
+                    Gates Construction Company
+                </h1>
+                <div class="mt-lg-4 mt-3 py-lg-3 py-2">
+                    <p class="sub-heading fw-normal">
+                        Best Builing Material
+                    </p>
+                    <p class="normal-para  ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s
+                    </p>
+                </div>
+                <div class=" py-lg-3 py-2">
+                    <p class="sub-heading fw-normal">
+                        Best Builing Material
+                    </p>
+                    <p class="normal-para  ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s
+                    </p>
+                </div>
+                <div class=" py-lg-3 py-2">
+                    <p class="sub-heading fw-normal">
+                        Best Builing Material
+                    </p>
+                    <p class="normal-para  ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s
+                    </p>
+                </div>
+
+            </div>
+            <div
+                class="col-xxl-7 col-lg-6 col-sm-6 col-12 pt-5 mt-lg-5  d-flex align-items-center order-1 order-lg-2  justify-content-center justify-content-lg-end">
+                <img class="w-100 mw-688" src="./assets/img/man.png" alt="">
+            </div>
+        </div>
+
+        <div class="mt-5 mb-3 pt-lg-5">
+            <div class="row justify-content-lg-between justify-content-center text-center text-lg-start">
+                <div class="col-lg-2 col-6 pt-lg-5 pt-4 ">
+                    <div class="vertical-text text-center mx-auto mx-lg-0">
+                        <p class="small-heading-2 mb-0 mt-3">
+                            O
+                        </p>
+                        <P class="small-heading-2 mb-0">
+                            U
+                        </P>
+                        <P class="small-heading-2 mb-0">
+                            R
+                        </P>
+
+                        <P class="small-heading-2 mb-0 mt-3">
+                            W
+                        </P>
+                        <P class="small-heading-2 mb-0">
+                            O
+                        </P>
+                        <P class="small-heading-2 mb-0 ">
+                            R
+                        </P>
+                        <P class="small-heading-2 mb-0 ">
+                            D
+                        </P>
+                        <P class="small-heading-2 mb-4">
+                            S
+                        </P>
+                        <div>
+                            <svg width="2" height="100" viewBox="0 0 1 168" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" y1="2.18557e-08" x2="0.499993" y2="168" stroke="#025066" />
+                            </svg>
+
+                        </div>
+                        <h3 class="number mt-3">
+                            02
+                        </h3>
+
+                    </div>
+                </div>
+                <div
+                    class="col-lg-7 d-flex flex-column justify-content-end  col-12 pt-lg-5 py-4 ps-lg-5 pe-4 order-3 order-lg-2 text-lg-end">
+
+                    <h1 class="heading">
+                        Our Portfolio Gallerys
+                    </h1>
+                    <p class="normal-para my-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet.
+                        Vivamus eros nibh, dictum sed venenatis vitae, ornare eget magna. Etiam mattis, felis eu
+                        interdum
+                        posuere, justo neque
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--========================== SECTION-FIFTH ==========================-->
+    <section class="bg-sea-green py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12 text-center">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-6.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 text-center mt-4 mt-sm-0">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-2.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 text-center mt-4 mt-lg-0">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-3.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 text-center mt-4">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-4.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 text-center mt-4">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-5.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 text-center mt-4">
+                    <img class="w-100 mw-428  transform" src="./assets/img/img-6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================= CAROUSEL-SECTION =========================-->
+    <div class="container mb-5 pb-lg-5">
+        <div class="row justify-content-center">
+            <div class=" col-xl-6 col-12">
+                <div class="responsive ">
+                    <div>
+                        <div class="card-3 text-center">
+                            <div class="">
+                                <p class="small-heading text-dark mt-5 pt-lg-4">
+                                    TESTIMONIALS
+                                </p>
+                                <h1 class="heading mb-4 pb-4">
+                                    What Clients say about us
+                                </h1>
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/round-img.png" alt="">
+                                </div>
+                                <p class="small-heading-2 my-3">
+                                    TREGSDKH
+                                </p>
+                                <div class="mb-4">
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+
+                                </div>
+                                <p class="normal-para px-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex
+                                    quis
+                                    finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac
+                                    ultrices
+                                    imperdiet. s
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card-3 text-center">
+                            <div class="">
+                                <p class="small-heading text-dark mt-5 pt-lg-4">
+                                    TESTIMONIALS
+                                </p>
+                                <h1 class="heading mb-4 pb-4">
+                                    What Clients say about us
+                                </h1>
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/round-img.png" alt="">
+                                </div>
+                                <p class="small-heading-2 my-3">
+                                    TREGSDKH
+                                </p>
+                                <div class="mb-4">
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+
+                                </div>
+                                <p class="normal-para px-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex
+                                    quis
+                                    finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac
+                                    ultrices
+                                    imperdiet. s
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="card-3 text-center">
+                            <div class="">
+                                <p class="small-heading text-dark mt-5 pt-lg-4">
+                                    TESTIMONIALS
+                                </p>
+                                <h1 class="heading mb-4 pb-4">
+                                    What Clients say about us
+                                </h1>
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/round-img.png" alt="">
+                                </div>
+                                <p class="small-heading-2 my-3">
+                                    TREGSDKH
+                                </p>
+                                <div class="mb-4">
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.2632 8.86203H15.3013L12.5227 0.174072L9.74413 8.86203H0.782227L8.02219 14.2235L5.28274 22.8723L12.5227 17.5108L19.7627 22.8723L16.9841 14.1844L24.2632 8.86203Z"
+                                            fill="#FFCE31" />
+                                    </svg>
+
+                                </div>
+                                <p class="normal-para px-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex
+                                    quis
+                                    finibus. Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac
+                                    ultrices
+                                    imperdiet. s
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========================= LAST-SECOND-SECTION =========================-->
+    <section class="bg-img-2 pt-4 pb-3">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 col-12 text-center text-lg-start ">
+                    <input class="input-last mt-3" type="text" name="" id="" placeholder="Your Name">
+                    <input class="input-last mt-3" type="text" name="" id="" placeholder="Phone Number">
+                    <input class="input-last mt-3" type="text" name="" id="" placeholder="E-Mail">
+                    <textarea class="input-last mt-3" placeholder="Message" name="" id="" cols="30" rows="4"></textarea>
+                    <div class="mt-3">
+                        <button class="contact-now-btn">
+                            CONTACT NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 text-lg-end text-center mt-4 mt-lg-0 text-lg-end">
+                    <h1 class="heading-last ">
+                        How we can help you?
+                    </h1>
+                    <p class="normal-para-2  my-4">
+                        Quisque vel nisl blandit sem tempor dignissim. Sed maximus efficitur neque
+                    </p>
+                    <p class="normal-para-2">
+                        Phone Number:+1235265652
+                    </p>
+                    <p class="normal-para-2 ">
+                        Address:Nam convallis feugiat
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================ FOOTER ============================-->
+    <footer class="bg-sea-green py-5">
+        <div class="container">
+            <div class="row justify-content-between text-center text-lg-start">
+                <div class="mb-3">
+                    <img src="./assets/img/logo.png" alt="">
+                </div>
+                <div class="col-lg-4 col-12">
+                    <p class="footer-para mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat molestie ex quis finibus.
+                        Quisque tincidunt dolor ut convallis lobortis. Proin ullamcorper eros ac ultrices imperdiet. s
+                    </p>
+                    <div>
+                        <svg class="me-3" width="27" height="27" viewBox="0 0 27 27" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.4964 8.99808C11.0175 8.99808 8.99454 11.0211 8.99454 13.5C8.99454 15.9789 11.0175 18.0019 13.4964 18.0019C15.9752 18.0019 17.9982 15.9789 17.9982 13.5C17.9982 11.0211 15.9752 8.99808 13.4964 8.99808ZM26.9985 13.5C26.9985 11.6357 27.0154 9.78837 26.9107 7.92748C26.806 5.76602 26.3129 3.84773 24.7324 2.26716C23.1485 0.683215 21.2336 0.19351 19.0722 0.0888138C17.2079 -0.0158819 15.3606 0.00100455 13.4997 0.00100455C11.6355 0.00100455 9.78819 -0.0158819 7.92734 0.0888138C5.76592 0.19351 3.84766 0.686593 2.26712 2.26716C0.683203 3.85111 0.193506 5.76602 0.0888122 7.92748C-0.0158816 9.79174 0.00100453 11.6391 0.00100453 13.5C0.00100453 15.3609 -0.0158816 17.2116 0.0888122 19.0725C0.193506 21.234 0.68658 23.1523 2.26712 24.7328C3.85103 26.3168 5.76592 26.8065 7.92734 26.9112C9.79156 27.0159 11.6389 26.999 13.4997 26.999C15.364 26.999 17.2113 27.0159 19.0722 26.9112C21.2336 26.8065 23.1518 26.3134 24.7324 24.7328C26.3163 23.1489 26.806 21.234 26.9107 19.0725C27.0188 17.2116 26.9985 15.3643 26.9985 13.5ZM13.4964 20.4268C9.66323 20.4268 6.56969 17.3332 6.56969 13.5C6.56969 9.66679 9.66323 6.57319 13.4964 6.57319C17.3295 6.57319 20.423 9.66679 20.423 13.5C20.423 17.3332 17.3295 20.4268 13.4964 20.4268ZM20.7067 7.90722C19.8118 7.90722 19.089 7.18448 19.089 6.2895C19.089 5.39452 19.8118 4.67179 20.7067 4.67179C21.6017 4.67179 22.3244 5.39452 22.3244 6.2895C22.3247 6.50202 22.283 6.7125 22.2018 6.90889C22.1206 7.10528 22.0015 7.28373 21.8512 7.434C21.7009 7.58427 21.5225 7.70342 21.3261 7.78462C21.1297 7.86583 20.9192 7.90749 20.7067 7.90722Z"
+                                fill="white" />
+                        </svg>
+                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0 13.5754C0 20.2871 4.87463 25.8682 11.25 27V17.2496H7.875V13.5H11.25V10.4996C11.25 7.12463 13.4246 5.25037 16.5004 5.25037C17.4746 5.25037 18.5254 5.4 19.4996 5.54962V9H17.775C16.1246 9 15.75 9.82463 15.75 10.8754V13.5H19.35L18.7504 17.2496H15.75V27C22.1254 25.8682 27 20.2882 27 13.5754C27 6.10875 20.925 0 13.5 0C6.075 0 0 6.10875 0 13.5754Z"
+                                fill="white" />
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 d-flex justify-content-between mt-4 mt-lg-0">
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a class="footer-link" href="">
+                                Renovation
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Carpentry
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Tiling
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Ceiling
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a class="footer-link" href="">
+                                Renovation
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Carpentry
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Tiling
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Ceiling
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a class="footer-link" href="">
+                                Renovation
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Carpentry
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Tiling
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="footer-link" href="">
+                                Ceiling
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="bg-copyright py-3 text-center">
+        <small class="copyright ">
+            Copyright@IS Company2021
+        </small>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.responsive').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            arrows: true,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        arrows: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>

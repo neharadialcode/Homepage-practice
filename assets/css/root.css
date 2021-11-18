@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+:root {
+    /*=============================== FONT-SIZE ===============================*/
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-18: 18px;
+    --font-20: 20px;
+    --font-25: 25px;
+    --font-48: 48px;
+    --font-61: 61px;
+    --font-72: 72px;
+    /*================================ COLORS ================================*/
+    --color-gray: #4F4F4F;
+    --color-light-green: #4e8594;
+    --color-sea-green: #025066;
+}
+
+@media (max-width:1200px) {
+    :root {
+        --font-14: 14px;
+        --font-16: 16px;
+        --font-18: 18px;
+        --font-20: 20px;
+        --font-25: 25px;
+        --font-48: 48px;
+        --font-72: 65px;
+        --font-61: 50px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --font-14: 14px;
+        --font-16: 16px;
+        --font-18: 18px;
+        --font-20: 20px;
+        --font-25: 25px;
+        --font-48: 48px;
+        --font-72: 60px;
+        --font-61: 45px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --font-14: 14px;
+        --font-16: 16px;
+        --font-18: 17px;
+        --font-20: 19px;
+        --font-25: 24px;
+        --font-48: 40px;
+        --font-72: 60px;
+        --font-61: 40px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-14: 14px;
+        --font-16: 16px;
+        --font-18: 17px;
+        --font-20: 19px;
+        --font-25: 22px;
+        --font-48: 38px;
+        --font-72: 50px;
+        --font-61: 40px;
+    }
+}
+
+
+
+/*================================ REUSABLE-CLASSES ================================*/
+.heading {
+    font-size: var(--font-48);
+    font-weight: 700;
+    line-height: 56px;
+    color: var(--color-sea-green);
+}
+
+.sub-heading {
+    font-size: var(--font-25);
+    font-weight: 700;
+    color: var(--color-sea-green);
+}
+
+.small-heading {
+    font-weight: 700;
+    font-size: var(--font-20);
+    color: var(--color-sea-green);
+}
+
+.small-heading-2 {
+    font-weight: 700;
+    font-size: var(--font-16);
+    color: var(--color-sea-green);
+}
+
+.normal-para {
+    font-size: var(--font-16);
+    font-weight: 400;
+    color: var(--color-light-green);
+}
